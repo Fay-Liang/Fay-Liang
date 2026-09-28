@@ -36,19 +36,14 @@
 ### GitHub 数据
 
 <div align="center">
-  <img height="137px" src="https://github-readme-stats.vercel.app/api?username=Fay-Liang&hide_title=true&hide_border=true&show_icons=true&line_height=21&text_color=000&icon_color=000&bg_color=0,ea6161,ffc64d,fffc4d,52fa5a&theme=graywhite" />
-  <img height="137px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Fay-Liang&hide_title=true&hide_border=true&layout=compact&langs_count=6&text_color=000&icon_color=fff&bg_color=0,52fa5a,4dfcff,c64dff&theme=graywhite" />
+  <img src="github-metrics.svg" alt="metrics" />
 </div>
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com/?user=Fay-Liang&hide_border=true" />
+  <img src="https://streak-stats.demolab.com/?user=Fay-Liang&hide_border=true" alt="streak" />
 </div>
 
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Fay-Liang&theme=xcode&hide_border=true" />
-</div>
+### 项目
 
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Fay-Liang&column=7&margin-w=8&margin-h=8" />
-</div>
-
+- **六足机器人复刻** —— 机械、电子与软件全流程记录
+- **可自主预警的天气小助手** —— ESP32/STM32 + 物联网协议 + 前端界面
