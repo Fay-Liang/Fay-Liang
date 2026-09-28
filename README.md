@@ -17,7 +17,7 @@
 > 代码如诗，远方如谜，唯上下求索。
 
 - 博客：<https://fay-liang.github.io/>
-- 邮箱：heureka_zhu@qq.com
+- 邮箱：heureka0326@foxmail.com
 
 ### 技术栈
 
