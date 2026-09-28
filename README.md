@@ -52,7 +52,3 @@
   <img src="https://github-profile-trophy.vercel.app/?username=Fay-Liang&column=7&margin-w=8&margin-h=8" />
 </div>
 
-### 项目
-
-- **六足机器人复刻** —— 机械、电子与软件全流程记录
-- **可自主预警的天气小助手** —— ESP32/STM32 + 物联网协议 + 前端界面
