@@ -36,12 +36,13 @@
 ### GitHub 数据
 
 <div align="center">
-  <img src="github-metrics.svg" alt="metrics" />
+  <img src="https://streak-stats.demolab.com/?user=Fay-Liang&hide_border=true" alt="streak" />
 </div>
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com/?user=Fay-Liang&hide_border=true" alt="streak" />
+  <img src="github-metrics.svg" alt="metrics" />
 </div>
+
 
 ### 项目
 
