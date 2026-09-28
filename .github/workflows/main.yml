@@ -31,7 +31,14 @@ jobs:
     steps:
       - uses: lowlighter/metrics@latest
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          # 为什么不用内置的 GITHUB_TOKEN：
+          # 它由 Actions 自动生成，权限被限制在本仓库内。而 plugin_habits /
+          # plugin_achievements / plugin_languages 都需要跨仓库读取你所有
+          # 仓库的提交历史与语言构成，单仓库 token 查不到，插件会直接抛
+          # "Unexpected error"（表现为图里那三处红色报错）。
+          # 故改用 PAT，存在仓库 secret 里，名为 METRICS_TOKEN。
+          # 未配置时回退到 GITHUB_TOKEN，此时上述三个插件仍会失败。
+          token: ${{ secrets.METRICS_TOKEN || secrets.GITHUB_TOKEN }}
           user: Fay-Liang
           template: classic
           config_timezone: Asia/Shanghai
