@@ -39,8 +39,3 @@
   <img src="https://streak-stats.demolab.com/?user=Fay-Liang&hide_border=true" alt="streak" />
 </div>
 
-<div align="center">
-  <img src="github-metrics.svg" alt="metrics" />
-</div>
-
-
